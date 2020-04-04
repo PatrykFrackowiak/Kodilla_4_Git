@@ -1,0 +1,25 @@
+{
+  "name": "Projec-4-Narzedzia_developerskie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://PatrykFrackowiak@github.com/PatrykFrackowiak/Kodilla_4_Git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrykFrackowiak/Kodilla_4_Git/issues"
+  },
+  "homepage": "https://github.com/PatrykFrackowiak/Kodilla_4_Git#readme",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.26.7",
+    "html-validate": "^2.19.0"
+  }
+}
