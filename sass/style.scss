@@ -1,0 +1,110 @@
+/* Variables */
+$font-heading: "Montserrat", sans-serif;
+$font-text: serif;
+$font-themed: "Kaushan Script", cursive;
+$color-primary: rgb(252, 189, 54);
+$color-primary-shadow: darkgreen;
+
+/* Global */
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-heading;
+}
+
+.section-header > h2 {
+  font-size: 46px;
+  font-weight: 900;
+}
+
+p {
+  font-family: $font-text;
+  font-size: 18px;
+  color: gray;
+}
+
+/* Splash */
+.splash {
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.navbar {
+  max-width: none;
+}
+
+.navbar-brand {
+  font-family: $font-themed;
+  color: $color-primary;
+}
+
+.nav-item {
+  color: white;
+  font-weight: 600;
+}
+
+.splash-img {
+  position: absolute;
+  height: 100%;
+  left: 0%;
+  object-fit: cover;
+}
+
+.splash-caption {
+  position: absolute;
+  left: 50%;
+  right: auto;
+  top: 50%;
+  bottom: auto;
+  transform: translate(-50%, -30%);
+}
+
+.splash-caption > h2 {
+  font-family: $font-themed;
+}
+
+.splash-caption > h1 {
+  font-size: 64px;
+}
+
+.btn-primary {
+  background-color: $color-primary;
+  border-color: $color-primary;
+  
+}
+
+/* Services */
+.service-icon {
+  color: $color-primary;
+  height: 90px;
+  width: 90px;
+  line-height: 80px;
+  font-size: 45px;
+  text-align: center;
+  border: 3px solid $color-primary;
+}
+
+
+/* Portfolio */
+.portfolio {
+  background-color: rgb(241, 241, 241);
+}
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Footer */
+.icon {
+  width: 44px;
+  height: 44px;
+  line-height: 38px;
+  font-size: 22px;
+  text-align: center;
+}
