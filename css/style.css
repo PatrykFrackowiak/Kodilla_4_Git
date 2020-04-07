@@ -1,104 +1,39 @@
 /* Variables */
 /* Global */
-section {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
+section { padding-top: 2rem; padding-bottom: 2rem; }
 
-h1, h2, h3, h4, h5 {
-  font-family: "Montserrat", sans-serif;
-}
+h1, h2, h3, h4, h5 { font-family: "Montserrat", sans-serif; }
 
-.section-header > h2 {
-  font-size: 46px;
-  font-weight: 900;
-}
+.section-header > h2 { font-size: 46px; font-weight: 900; }
 
-p {
-  font-family: serif;
-  font-size: 18px;
-  color: gray;
-}
+p { font-family: serif; font-size: 18px; color: gray; }
 
 /* Splash */
-.splash {
-  height: 100vh;
-  text-align: center;
-  color: #fff;
-  position: relative;
-}
+.splash { height: 100vh; text-align: center; color: #fff; position: relative; }
 
-.navbar {
-  max-width: none;
-}
+.navbar { max-width: none; }
 
-.navbar-brand {
-  font-family: "Kaushan Script", cursive;
-  color: #fcbd36;
-}
+.navbar-brand { font-family: "Kaushan Script", cursive; color: #fcbd36; }
 
-.nav-item {
-  color: white;
-  font-weight: 600;
-}
+.nav-item { color: white; font-weight: 600; }
 
-.splash-img {
-  position: absolute;
-  height: 100%;
-  left: 0%;
-  object-fit: cover;
-}
+.splash-img { position: absolute; height: 100%; left: 0%; object-fit: cover; }
 
-.splash-caption {
-  position: absolute;
-  left: 50%;
-  right: auto;
-  top: 50%;
-  bottom: auto;
-  transform: translate(-50%, -30%);
-}
+.splash-caption { position: absolute; left: 50%; right: auto; top: 50%; bottom: auto; transform: translate(-50%, -30%); }
 
-.splash-caption > h2 {
-  font-family: "Kaushan Script", cursive;
-}
+.splash-caption > h2 { font-family: "Kaushan Script", cursive; }
 
-.splash-caption > h1 {
-  font-size: 64px;
-}
+.splash-caption > h1 { font-size: 64px; }
 
-.btn-primary {
-  background-color: #fcbd36;
-  border-color: #fcbd36;
-}
+.btn-primary { background-color: #fcbd36; border-color: #fcbd36; }
 
 /* Services */
-.service-icon {
-  color: #fcbd36;
-  height: 90px;
-  width: 90px;
-  line-height: 80px;
-  font-size: 45px;
-  text-align: center;
-  border: 3px solid #fcbd36;
-}
+.service-icon { color: #fcbd36; height: 90px; width: 90px; line-height: 80px; font-size: 45px; text-align: center; border: 3px solid #fcbd36; }
 
 /* Portfolio */
-.portfolio {
-  background-color: #f1f1f1;
-}
+.portfolio { background-color: #f1f1f1; }
 
-.card img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
+.card img { width: 100%; height: 300px; object-fit: cover; }
 
 /* Footer */
-.icon {
-  width: 44px;
-  height: 44px;
-  line-height: 38px;
-  font-size: 22px;
-  text-align: center;
-}
-/*# sourceMappingURL=style.css.map */
+.icon { width: 44px; height: 44px; line-height: 38px; font-size: 22px; text-align: center; }
